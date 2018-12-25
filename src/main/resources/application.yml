@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  tomcat:
+     max-connections: 10 # Maximum number of connections that the server will accept and process at any given time.
+     max-threads: 10
+
+spring:
+  application:
+    name: e-storage
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50Mb
+      max-request-size: 50Mb
+
+cassandra:
+  contact-points: 10.0.20.104,10.0.20.105,10.0.20.106
+  keyspace-name: ocds
+  port: 9042
+  username: caclient
+  password: 6AH7vbrkMWnfK
+
+upload:
+  file:
+    max-weight: 52428800
+    path: http://bpe.eprocurement.systems/api/v1/storage/get/
+    folder: /home/user/storage
+    extensions: jpg,png,gif,tif,rar,zip,7s,doc,docx,xls,xlsx,pdf,rtf,txt

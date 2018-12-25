@@ -1,0 +1,550 @@
+{
+  "ocid": "ocds-b3wdp1-MD-1542199854044",
+  "planning": {
+    "budget": {
+      "amount": {
+        "amount": 15000000.00,
+        "currency": "MDL"
+      },
+      "isEuropeanUnionFunded": false,
+      "budgetBreakdown": [
+        {
+          "id": "ocds-b3wdp1-MD-1542183626304-FS-1542185083466",
+          "description": "Servicii de curăţenie",
+          "amount": {
+            "amount": 15000000.00,
+            "currency": "MDL"
+          },
+          "period": {
+            "startDate": "2018-11-14T00:00:00Z",
+            "endDate": "2019-12-31T00:00:00Z"
+          },
+          "sourceParty": {
+            "id": "MD-IDNO-1002600024700",
+            "name": "Agentia Servicii Publice"
+          }
+        }
+      ]
+    }
+  },
+  "tender": {
+    "id": "ocds-b3wdp1-MD-1542199854044",
+    "title": "Servicii de curăţenie pentru anul 2019",
+    "description": "Asigurarea condiţiilor sanitare în oficiile Agenţiei Servicii Publice",
+    "status": "active",
+    "statusDetails": "tendering",
+    "classification": {
+      "scheme": "CPV",
+      "id": "90900000-6",
+      "description": "Servicii de curăţenie şi igienizare"
+    },
+    "mainProcurementCategory": "services",
+    "procurementMethod": "open",
+    "procurementMethodDetails": "Licitație deschisă",
+    "submissionMethod": [
+      "electronicSubmission"
+    ],
+    "submissionMethodDetails": "Lista platformelor: achizitii, ebs, licitatie, yptender",
+    "submissionMethodRationale": [
+      "Ofertele vor fi primite prin intermediul unei platforme electronice de achiziții publice"
+    ],
+    "eligibilityCriteria": "Regulile generale privind naționalitatea și originea, precum și alte criterii de eligibilitate sunt enumerate în Ghidul practic privind procedurile de contractare a acțiunilor externe ale UE (PRAG)",
+    "acceleratedProcedure": {
+      "isAcceleratedProcedure": false
+    },
+    "designContest": {
+      "serviceContractAward": false
+    },
+    "electronicWorkflows": {
+      "useOrdering": false,
+      "usePayment": false,
+      "acceptInvoicing": false
+    },
+    "jointProcurement": {
+      "isJointProcurement": false
+    },
+    "procedureOutsourcing": {
+      "procedureOutsourced": false
+    },
+    "framework": {
+      "isAFramework": false
+    },
+    "dynamicPurchasingSystem": {
+      "hasDynamicPurchasingSystem": false
+    },
+    "legalBasis": "NATIONAL_PROCUREMENT_LAW",
+    "procuringEntity": {
+      "id": "MD-IDNO-1002600024700",
+      "name": "Agentia Servicii Publice",
+      "identifier": {
+        "id": "1002600024700",
+        "scheme": "MD-IDNO",
+        "legalName": "Agentia Servicii Publice",
+        "uri": "http://asp.gov.md"
+      },
+      "address": {
+        "streetAddress": "str. Puskin, 42",
+        "postalCode": "2012",
+        "addressDetails": {
+          "country": {
+            "scheme": "iso-alpha2",
+            "id": "MD",
+            "description": "MOLDOVA",
+            "uri": "http://reference.iatistandard.org"
+          },
+          "region": {
+            "scheme": "CUATM",
+            "id": "0101000",
+            "description": "mun.Chişinău",
+            "uri": "http://statistica.md"
+          },
+          "locality": {
+            "scheme": "UN/LOCODE",
+            "id": "0101000",
+            "description": "mun.Chişinău"
+          }
+        }
+      },
+      "contactPoint": {
+        "name": "Bulicanu Oxana",
+        "email": "oxana.bulicanu@asp.gov.md",
+        "telephone": "022504891"
+      }
+    },
+    "awardCriteria": "priceOnly",
+    "requiresElectronicCatalogue": false,
+    "contractPeriod": {
+      "startDate": "2019-01-01T14:54:50Z",
+      "endDate": "2019-12-31T15:01:47Z"
+    },
+    "tenderPeriod": {
+      "startDate": "2018-11-21T14:52:04Z",
+      "endDate": "2018-12-20T14:52:10Z"
+    },
+    "enquiryPeriod": {
+      "startDate": "2018-11-14T13:05:17Z",
+      "endDate": "2018-11-21T14:52:04Z"
+    },
+    "value": {
+      "amount": 15000000.00,
+      "currency": "MDL"
+    },
+    "lotGroups": [
+      {
+        "optionToCombine": false
+      }
+    ],
+    "lots": [
+      {
+        "id": "eeca89f5-e80d-11e8-bc51-5d5f646c5cf4",
+        "title": "Curăţarea chimică a covoarelor, mochetelor şi draperiilor",
+        "description": "Curăţarea chimică a covoarelor, mochetelor şi draperiilor",
+        "status": "active",
+        "statusDetails": "empty",
+        "value": {
+          "amount": 30000.00,
+          "currency": "MDL"
+        },
+        "options": [
+          {
+            "hasOptions": false
+          }
+        ],
+        "recurrentProcurement": [
+          {
+            "isRecurrent": false
+          }
+        ],
+        "renewals": [
+          {
+            "hasRenewals": false
+          }
+        ],
+        "variants": [
+          {
+            "hasVariants": false
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-01-01T15:00:15Z",
+          "endDate": "2019-12-31T15:00:15Z"
+        },
+        "placeOfPerformance": {
+          "address": {
+            "streetAddress": "str. Puskin, 42",
+            "postalCode": "2012",
+            "addressDetails": {
+              "country": {
+                "scheme": "iso-alpha2",
+                "id": "MD",
+                "description": "MOLDOVA",
+                "uri": "http://reference.iatistandard.org"
+              },
+              "region": {
+                "scheme": "CUATM",
+                "id": "0101000",
+                "description": "mun.Chişinău",
+                "uri": "http://statistica.md"
+              },
+              "locality": {
+                "scheme": "UN/LOCODE",
+                "id": "0101000",
+                "description": "mun.Chişinău"
+              }
+            }
+          },
+          "description": ""
+        }
+      },
+      {
+        "id": "eeca89f9-e80d-11e8-bc51-5d5f646c5cf4",
+        "title": "Curăţenia oficiilor după reparaţie sau construcţie",
+        "description": "Curăţenia oficiilor după reparaţie sau construcţie",
+        "status": "active",
+        "statusDetails": "empty",
+        "value": {
+          "amount": 80000.00,
+          "currency": "MDL"
+        },
+        "options": [
+          {
+            "hasOptions": false
+          }
+        ],
+        "recurrentProcurement": [
+          {
+            "isRecurrent": false
+          }
+        ],
+        "renewals": [
+          {
+            "hasRenewals": false
+          }
+        ],
+        "variants": [
+          {
+            "hasVariants": false
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-01-01T15:01:47Z",
+          "endDate": "2019-12-31T15:01:47Z"
+        },
+        "placeOfPerformance": {
+          "address": {
+            "streetAddress": "str. Puskin, 42",
+            "postalCode": "2012",
+            "addressDetails": {
+              "country": {
+                "scheme": "iso-alpha2",
+                "id": "MD",
+                "description": "MOLDOVA",
+                "uri": "http://reference.iatistandard.org"
+              },
+              "region": {
+                "scheme": "CUATM",
+                "id": "0101000",
+                "description": "mun.Chişinău",
+                "uri": "http://statistica.md"
+              },
+              "locality": {
+                "scheme": "UN/LOCODE",
+                "id": "0101000",
+                "description": "mun.Chişinău"
+              }
+            }
+          },
+          "description": ""
+        }
+      },
+      {
+        "id": "eeca89f7-e80d-11e8-bc51-5d5f646c5cf4",
+        "title": "Spălarea faţadelor ",
+        "description": "Spălarea faţadelor ",
+        "status": "active",
+        "statusDetails": "empty",
+        "value": {
+          "amount": 300000.00,
+          "currency": "MDL"
+        },
+        "options": [
+          {
+            "hasOptions": false
+          }
+        ],
+        "recurrentProcurement": [
+          {
+            "isRecurrent": false
+          }
+        ],
+        "renewals": [
+          {
+            "hasRenewals": false
+          }
+        ],
+        "variants": [
+          {
+            "hasVariants": false
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-01-01T14:57:31Z",
+          "endDate": "2019-12-31T14:57:31Z"
+        },
+        "placeOfPerformance": {
+          "address": {
+            "streetAddress": "str. Puskin, 42",
+            "postalCode": "2012",
+            "addressDetails": {
+              "country": {
+                "scheme": "iso-alpha2",
+                "id": "MD",
+                "description": "MOLDOVA",
+                "uri": "http://reference.iatistandard.org"
+              },
+              "region": {
+                "scheme": "CUATM",
+                "id": "0101000",
+                "description": "mun.Chişinău",
+                "uri": "http://statistica.md"
+              },
+              "locality": {
+                "scheme": "UN/LOCODE",
+                "id": "0101000",
+                "description": "mun.Chişinău"
+              }
+            }
+          },
+          "description": ""
+        }
+      },
+      {
+        "id": "eeca89f8-e80d-11e8-bc51-5d5f646c5cf4",
+        "title": "Curăţirea chimică a mobilierului",
+        "description": "Curăţirea chimică a mobilierului",
+        "status": "active",
+        "statusDetails": "empty",
+        "value": {
+          "amount": 90000.00,
+          "currency": "MDL"
+        },
+        "options": [
+          {
+            "hasOptions": false
+          }
+        ],
+        "recurrentProcurement": [
+          {
+            "isRecurrent": false
+          }
+        ],
+        "renewals": [
+          {
+            "hasRenewals": false
+          }
+        ],
+        "variants": [
+          {
+            "hasVariants": false
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-01-01T14:58:49Z",
+          "endDate": "2019-12-31T14:58:49Z"
+        },
+        "placeOfPerformance": {
+          "address": {
+            "streetAddress": "str. Puskin, 42",
+            "postalCode": "2012",
+            "addressDetails": {
+              "country": {
+                "scheme": "iso-alpha2",
+                "id": "MD",
+                "description": "MOLDOVA",
+                "uri": "http://reference.iatistandard.org"
+              },
+              "region": {
+                "scheme": "CUATM",
+                "id": "0101000",
+                "description": "mun.Chişinău",
+                "uri": "http://statistica.md"
+              },
+              "locality": {
+                "scheme": "UN/LOCODE",
+                "id": "0101000",
+                "description": "mun.Chişinău"
+              }
+            }
+          },
+          "description": ""
+        }
+      },
+      {
+        "id": "eeca89f6-e80d-11e8-bc51-5d5f646c5cf4",
+        "title": "Servicii de efectuare a curăţeniei în încăperile şi pe suprafeţele adiacente a oficiilor Agenţiei Servicii Publice",
+        "description": "Servicii de efectuare a curăţeniei în încăperile şi pe suprafeţele adiacente a oficiilor Agenţiei Servicii Publice",
+        "status": "active",
+        "statusDetails": "empty",
+        "value": {
+          "amount": 14500000.00,
+          "currency": "MDL"
+        },
+        "options": [
+          {
+            "hasOptions": false
+          }
+        ],
+        "recurrentProcurement": [
+          {
+            "isRecurrent": false
+          }
+        ],
+        "renewals": [
+          {
+            "hasRenewals": false
+          }
+        ],
+        "variants": [
+          {
+            "hasVariants": false
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-01-01T14:54:50Z",
+          "endDate": "2019-12-31T14:54:50Z"
+        },
+        "placeOfPerformance": {
+          "address": {
+            "streetAddress": "str. Puskin, 42",
+            "postalCode": "2012",
+            "addressDetails": {
+              "country": {
+                "scheme": "iso-alpha2",
+                "id": "MD",
+                "description": "MOLDOVA",
+                "uri": "http://reference.iatistandard.org"
+              },
+              "region": {
+                "scheme": "CUATM",
+                "id": "0101000",
+                "description": "mun.Chişinău",
+                "uri": "http://statistica.md"
+              },
+              "locality": {
+                "scheme": "UN/LOCODE",
+                "id": "0101000",
+                "description": "mun.Chişinău"
+              }
+            }
+          },
+          "description": ""
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "eeca89f0-e80d-11e8-bc51-5d5f646c5cf4",
+        "description": "Servicii curăţenie pentru anul 2019",
+        "classification": {
+          "scheme": "CPV",
+          "id": "90900000-6",
+          "description": "Servicii de curăţenie şi igienizare"
+        },
+        "quantity": 1.00,
+        "unit": {
+          "id": "794",
+          "name": "Bucata"
+        },
+        "relatedLot": "eeca89f8-e80d-11e8-bc51-5d5f646c5cf4"
+      },
+      {
+        "id": "eeca89f1-e80d-11e8-bc51-5d5f646c5cf4",
+        "description": "Servicii curăţenie pentru anul 2019",
+        "classification": {
+          "scheme": "CPV",
+          "id": "90900000-6",
+          "description": "Servicii de curăţenie şi igienizare"
+        },
+        "quantity": 1.00,
+        "unit": {
+          "id": "794",
+          "name": "Bucata"
+        },
+        "relatedLot": "eeca89f9-e80d-11e8-bc51-5d5f646c5cf4"
+      },
+      {
+        "id": "eeca89f2-e80d-11e8-bc51-5d5f646c5cf4",
+        "description": "Servicii curăţenie pentru anul 2019",
+        "classification": {
+          "scheme": "CPV",
+          "id": "90900000-6",
+          "description": "Servicii de curăţenie şi igienizare"
+        },
+        "quantity": 1.00,
+        "unit": {
+          "id": "794",
+          "name": "Bucata"
+        },
+        "relatedLot": "eeca89f5-e80d-11e8-bc51-5d5f646c5cf4"
+      },
+      {
+        "id": "eeca89f3-e80d-11e8-bc51-5d5f646c5cf4",
+        "description": "Servicii curăţenie pentru anul 2019",
+        "classification": {
+          "scheme": "CPV",
+          "id": "90900000-6",
+          "description": "Servicii de curăţenie şi igienizare"
+        },
+        "quantity": 1.00,
+        "unit": {
+          "id": "794",
+          "name": "Bucata"
+        },
+        "relatedLot": "eeca89f7-e80d-11e8-bc51-5d5f646c5cf4"
+      },
+      {
+        "id": "eeca89f4-e80d-11e8-bc51-5d5f646c5cf4",
+        "description": "Servicii curăţenie pentru anul 2019",
+        "classification": {
+          "scheme": "CPV",
+          "id": "90900000-6",
+          "description": "Servicii de curăţenie şi igienizare"
+        },
+        "quantity": 1.00,
+        "unit": {
+          "id": "794",
+          "name": "Bucata"
+        },
+        "relatedLot": "eeca89f6-e80d-11e8-bc51-5d5f646c5cf4"
+      }
+    ],
+    "documents": [
+      {
+        "id": "67037e42-c683-4307-b63c-6e1f5c7848f8-1542199890787",
+        "documentType": "tenderNotice",
+        "title": "anunt de participare.pdf",
+        "description": "Anunţ de participare"
+      },
+      {
+        "id": "b41bb7bf-ae14-4c10-8bf8-80f3d74263a5-1542199906898",
+        "documentType": "technicalSpecifications",
+        "title": "anexa nr. 1.pdf",
+        "description": "Anexa nr. 1"
+      },
+      {
+        "id": "9bb6bf75-5322-4ec9-9874-01fd1e06094e-1542201834959",
+        "documentType": "biddingDocuments",
+        "title": "documentatia standard.docx",
+        "description": "Documentaţia standard"
+      },
+      {
+        "id": "a39bffa1-8a6e-4e6c-a2aa-be09ebde3d9d-1542201855030",
+        "documentType": "biddingDocuments",
+        "title": "duae.doc",
+        "description": "DUAE"
+      }
+    ]
+  }
+}
+
+,{"id": "67037e42-c683-4307-b63c-6e1f5c7848f8-1545302706540","documentType": "tenderNotice","title": "Anunt de participare modificat.pdf","description": "Anunţ de participare"},{"id": "2a5a9f3e-6e89-4ca6-a26e-f5f8eb0e9816-1545303478621","documentType": "complaints","title": "Anunț referitor la modificări sau informații suplimentare.docx","description": "Anunț referitor la modificări sau informații suplimentare"},{"id": "1534ec04-8fd8-4485-8f5a-2e97cfbc54e8-1545303611207","documentType": "complaints","title": "Scrisoare Platforma, MinFin.pdf","description": "Scrisoare Platforma, MinFin"}
