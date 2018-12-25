@@ -273,29 +273,6 @@
                 </dependencies>
             </plugin>
 
-            <!--Build Docker Image (fabric8)-->
-            <plugin>
-                <groupId>io.fabric8</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>${docker-maven-plugin.version}</version>
-                <configuration>
-                    <images>
-                        <image>
-                            <registry>${docker-registry}</registry>
-                            <name>${docker-registry}/${project.artifactId}${docker-image-profile}:${project.version}
-                            </name>
-                            <build>
-                                <dockerFileDir>${project.basedir}/src/main</dockerFileDir>
-                                <nocache/>
-                                <assembly>
-                                    <descriptorRef>artifact</descriptorRef>
-                                </assembly>
-                            </build>
-                        </image>
-                    </images>
-                </configuration>
-            </plugin>
-
         </plugins>
     </build>
 
