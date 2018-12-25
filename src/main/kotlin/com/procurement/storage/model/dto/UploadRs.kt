@@ -1,4 +1,4 @@
-package com.procurement.storage.model.dto.registration
+package com.procurement.storage.model.dto
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.databind.annotation.JsonSerialize

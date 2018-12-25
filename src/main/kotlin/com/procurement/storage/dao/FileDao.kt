@@ -27,29 +27,6 @@ class FileDao(private val session: Session) {
                 owner = row.getString(OWNER)) else null
     }
 
-    fun getAllByIds(fileIds: Set<String>): List<FileEntity> {
-        val query = select()
-                .all()
-                .from(FILES_TABLE)
-                .where(`in`(ID, *fileIds.toTypedArray()))
-        val resultSet = session.execute(query)
-        val entities = ArrayList<FileEntity>()
-        if (resultSet.isFullyFetched)
-            resultSet.forEach { row ->
-                entities.add(FileEntity(
-                        id = row.getString(ID),
-                        isOpen = row.getBool(IS_OPEN),
-                        dateModified = row.getTimestamp(MODIFIED),
-                        datePublished = row.getTimestamp(PUBLISHED),
-                        hash = row.getString(HASH),
-                        weight = row.getLong(WEIGHT),
-                        fileName = row.getString(NAME),
-                        fileOnServer = row.getString(ON_SERVER),
-                        owner = row.getString(OWNER)))
-            }
-        return entities
-    }
-
     fun save(entity: FileEntity): FileEntity {
         val insert = insertInto(FILES_TABLE)
                 .value(ID, entity.id)

@@ -1,12 +1,10 @@
 package com.procurement.storage.controller
 
 import com.procurement.storage.exception.ExternalException
-import com.procurement.storage.model.dto.bpe.ResponseDto
-import com.procurement.storage.model.dto.bpe.getExceptionResponseDto
-import com.procurement.storage.model.dto.bpe.getExternalExceptionResponseDto
-import com.procurement.storage.model.dto.registration.RegistrationRq
-import com.procurement.storage.model.dto.registration.RegistrationRs
-import com.procurement.storage.model.dto.registration.UploadRs
+import com.procurement.storage.model.dto.ResponseDto
+import com.procurement.storage.model.dto.UploadRs
+import com.procurement.storage.model.dto.getExceptionResponseDto
+import com.procurement.storage.model.dto.getExternalExceptionResponseDto
 import com.procurement.storage.service.StorageService
 import org.apache.tomcat.util.http.fileupload.IOUtils
 import org.springframework.http.HttpStatus
@@ -19,12 +17,6 @@ import javax.servlet.http.HttpServletResponse
 @RestController
 @RequestMapping(value = ["/storage"])
 class StorageController(private val storageService: StorageService) {
-
-    @PostMapping(value = ["/registration"])
-    fun registration(@RequestBody dto: RegistrationRq): ResponseEntity<RegistrationRs> {
-
-        return ResponseEntity(storageService.registerFile(dto), HttpStatus.CREATED)
-    }
 
     @PostMapping(value = ["/upload/{fileId}"], consumes = ["multipart/form-data"])
     fun uploadFile(@PathVariable(value = "fileId") fileId: String,
