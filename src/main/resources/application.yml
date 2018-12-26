@@ -1,8 +1,8 @@
 server:
   port: 8080
   tomcat:
-     max-connections: 10 # Maximum number of connections that the server will accept and process at any given time.
-     max-threads: 10
+    max-connections: 10 # Maximum number of connections that the server will accept and process at any given time.
+    max-threads: 10
 
 spring:
   application:

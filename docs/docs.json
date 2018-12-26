@@ -547,4 +547,5 @@
   }
 }
 
-,{"id": "67037e42-c683-4307-b63c-6e1f5c7848f8-1545302706540","documentType": "tenderNotice","title": "Anunt de participare modificat.pdf","description": "Anunţ de participare"},{"id": "2a5a9f3e-6e89-4ca6-a26e-f5f8eb0e9816-1545303478621","documentType": "complaints","title": "Anunț referitor la modificări sau informații suplimentare.docx","description": "Anunț referitor la modificări sau informații suplimentare"},{"id": "1534ec04-8fd8-4485-8f5a-2e97cfbc54e8-1545303611207","documentType": "complaints","title": "Scrisoare Platforma, MinFin.pdf","description": "Scrisoare Platforma, MinFin"}
+,{"id": "67037e42-c683-4307-b63c-6e1f5c7848f8-1545302706540", "documentType": "tenderNotice", "title": "Anunt de participare modificat.pdf", "description": "Anunţ de participare"}, {"id": "2a5a9f3e-6e89-4ca6-a26e-f5f8eb0e9816-1545303478621", "documentType": "complaints", "title": "Anunț referitor la modificări sau informații suplimentare.docx", "description": "Anunț referitor la modificări sau informații suplimentare"}, {"id": "1534ec04-8fd8-4485-8f5a-2e97cfbc54e8-1545303611207", "documentType": "complaints", "title": "Scrisoare Platforma, MinFin.pdf", "description": "Scrisoare Platforma, MinFin"
+}
