@@ -3,8 +3,8 @@ server:
 
 spring:
   application:
-    name: e-storage
+    name: storage-external
   cloud:
     config:
       failFast: true
-      name: e-storage
+      name: storage

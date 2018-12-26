@@ -3,7 +3,6 @@ package com.procurement.storage.controller
 import com.procurement.storage.exception.ExternalException
 import com.procurement.storage.model.dto.ResponseDto
 import com.procurement.storage.model.dto.UploadRs
-import com.procurement.storage.model.dto.getExceptionResponseDto
 import com.procurement.storage.model.dto.getExternalExceptionResponseDto
 import com.procurement.storage.service.StorageService
 import org.apache.tomcat.util.http.fileupload.IOUtils
@@ -36,13 +35,6 @@ class StorageController(private val storageService: StorageService) {
         response.status = HttpStatus.OK.value()
         IOUtils.copyLarge(fileInputStream, response.outputStream)
         response.flushBuffer()
-    }
-
-    @ResponseBody
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    @ExceptionHandler(Exception::class)
-    fun exception(ex: Exception): ResponseDto {
-        return getExceptionResponseDto(ex)
     }
 
     @ResponseBody
